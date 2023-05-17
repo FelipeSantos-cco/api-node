@@ -28,3 +28,4 @@ npm install express
 
 Ele vai criar a pasta `node_modules`. É nela que vão ficar as bibliotecas e suas depencias que o seu sistema ira usar, então... **Não mexe nela não viu?**
 
+A partir deste ponto, vamos mexer no `index.js`, Então recomendo fortemente ler o código, pois comentei a maioria das linhas para o total entendimento.
