@@ -1,5 +1,12 @@
 # APRENDENDO A >CRIAR< API EM NODEJS
 
+## Sumário
+ - ### [Confiração inicial](#configuração-inicial)
+ - ### [Rotas](#rotas-1)
+ -   
+
+---
+
 ## Configuração inicial
 
 Antes de tudo, crie um diretório (uma **pasta**) em seu computador.
@@ -42,4 +49,20 @@ E observe a Resposta que o terminal irá te dar.
 Se funcionou... OK :)... Se não, google, tentativa e erro, ou pode me chamar :) 
 
 ---
+
+## Rotas 
+
+Antes de tudo... O que são rotas? 
+> Rotas são caminhos definidos em um aplicativo web que correspondem a URLs específicas. Elas são responsáveis por determinar o que acontece quando um usuário acessa uma determinada URL. As rotas mapeiam URLs para funções ou manipuladores de código que serão executados quando a URL correspondente for acessada. Por exemplo, em um aplicativo de blog, podemos ter uma rota "/post" que mostra um determinado post quando o usuário acessa essa URL. As rotas permitem que você organize e controle como seu aplicativo responde às solicitações dos usuários, direcionando-as para a lógica apropriada do servidor.
+> ~ Tio Google. 
+
+Entendeu? Se sim, blzz vamo lá. 
+
+Crie um diretório chamado routers, dentro do diretório o seu projeto.
+
+Dentro dessa pasta crie o `atendimentoRoute.js`.
+
+Agora dentro desse arquivo faça o que está no aquivo aqui deste repositório, leia o código sem medo :)
+
+Leu o arquivo `atendimentoRoute.js`? Ok. Agora crie um novo arquvio chamado `index.js`, porem na pasta **`routers`**
 
