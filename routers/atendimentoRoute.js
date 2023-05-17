@@ -13,8 +13,9 @@ const router = Router();
 // GET
 // essa rota seria assim e no navegador: localhost:3000/atendimentos
 // req = Requisição e res = Resposta
-router.get("/atendimentos", (req, res) => {
-    res.send(`Fazendo`);
+router.get("/atendimentos/:nome", (req, res) => {
+    const { nome } = req.params;
+    res.send(`Olá ${nome}!!!Como vc está ?`);
 });
 
 
