@@ -3,7 +3,8 @@
 ## Sumário
  - ### [Confiração inicial](#configuração-inicial)
  - ### [Rotas](#rotas-1)
- -   
+ - ### [Conexão com o BD](#conexão-com-o-banco-de-dados)
+ - 
 
 ---
 
@@ -65,4 +66,24 @@ Dentro dessa pasta crie o `atendimentoRoute.js`.
 Agora dentro desse arquivo faça o que está no aquivo aqui deste repositório, leia o código sem medo :)
 
 Leu o arquivo `atendimentoRoute.js`? Ok. Agora crie um novo arquvio chamado `index.js`, porem na pasta **`routers`**
+
+---
+
+## Conexão com o Banco de Dados
+
+Bom... É importante a gente ter o BD né? então vamos lá :)
+
+O script do banco de dados está em [DB](./database/script.sql);
+
+Você precisa da biblioteca do MySQL para poder utilizar em sua API, por isso, rode o comando a baixo - É importante relembrar, rode esse comando no mesmo lugar onde está o arquivo `package.json`.
+```bash
+npm install mysql
+```
+
+Crie um diretório chamado `database` ou algum nome que te faça lembrar que este diretório está relacionado ao banco de dados.
+
+Crie um arquivo chamado `conexao.js`, que o seu arquivo de conexão com o banco de dados.
+
+Veja este aquivo aqui no repositório
+
 

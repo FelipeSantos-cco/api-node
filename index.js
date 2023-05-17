@@ -6,6 +6,10 @@ const app = express();
 const porta = 3000
 // Importando a rota criada na parte dois
 const router = require("./routers/index")
+// Parte 3: Banco de dados
+const conexao = require("./database/conexao")
+
+conexao.connect();// Banco de dados
 
 router(app); // criada na parte dois sobre rotas
 
