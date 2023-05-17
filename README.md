@@ -29,3 +29,17 @@ npm install express
 Ele vai criar a pasta `node_modules`. É nela que vão ficar as bibliotecas e suas depencias que o seu sistema ira usar, então... **Não mexe nela não viu?**
 
 A partir deste ponto, vamos mexer no `index.js`, Então recomendo fortemente ler o código, pois comentei a maioria das linhas para o total entendimento.
+
+[...] Se você chegou na linha **20** do código do `index.js`, boaaaa ! Testa ai, não copia, escreve com as suas mãos fazendo os seus testes.
+
+Da linha **1 à 20**, é simplesmente só para colocar o servidor "no ar". E para fazer isso, rode o comando:
+```bash
+node index.js
+```
+
+E observe a Resposta que o terminal irá te dar.
+
+Se funcionou... OK :)... Se não, google, tentativa e erro, ou pode me chamar :) 
+
+---
+
