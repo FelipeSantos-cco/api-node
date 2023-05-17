@@ -84,6 +84,5 @@ Crie um diretório chamado `database` ou algum nome que te faça lembrar que est
 
 Crie um arquivo chamado `conexao.js`, que o seu arquivo de conexão com o banco de dados.
 
-Veja este aquivo aqui no repositório
-
+Veja este aquivo aqui no repositório em [conexao.js](./database/conexao.js)
 

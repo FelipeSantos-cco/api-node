@@ -12,5 +12,5 @@ CREATE TABLE tbAtendimentos(
 INSERT INTO tbAtendimentos (dataAtendimento, tipoServico, nomeCliente)
 VALUES ('2023-05-17', 'Varrendo a casa', 'Felipe Santos');
 
-SELECT * FROM tbatendimentos;
+SELECT * FROM tbAtendimentos;
 
