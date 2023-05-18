@@ -88,6 +88,7 @@ Veja este aquivo aqui no repositório em [conexao.js](./database/conexao.js)
 
 > É DE EXTREMA IMPORTANCIA RESSALTAR QUE:
 > A versão do node que foi utilizada e funcionou, foi a v16.13.1
+
 Para saber a sua versão, rode o comando:
 ```bash 
 node -v
