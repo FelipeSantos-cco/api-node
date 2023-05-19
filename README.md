@@ -1,6 +1,6 @@
 # APRENDENDO A >CRIAR< API EM NODEJS
 
-> Em produção! 
+> **Em desenvolvimento!**
 
 ## Sumário
  - ### [Confiração inicial](#configuração-inicial)
