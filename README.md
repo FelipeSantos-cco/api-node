@@ -1,5 +1,7 @@
 # APRENDENDO A >CRIAR< API EM NODEJS
 
+> Em produção! 
+
 ## Sumário
  - ### [Confiração inicial](#configuração-inicial)
  - ### [Rotas](#rotas-1)
