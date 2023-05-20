@@ -1,5 +1,5 @@
 /node_modules
 
-/database/conexao.js
+/database
 
 yarn.lock
