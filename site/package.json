@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/FelipeSantos-cco/api-node#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "mysql2": "^3.3.5"
   }

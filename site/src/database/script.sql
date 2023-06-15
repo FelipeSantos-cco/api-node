@@ -24,3 +24,9 @@ CREATE TABLE IF NOT EXISTS tbAlunoEmpresa(
 )COMMENT "Tabela Responsável por armazenar as Empresas favoritas de cada Aluno";
 
 -- INSERTS
+INSERT INTO tbAluno (nomeAluno, idadeAluno, curso)
+VALUES ('Felipe Santos', 19, 'CCO')
+    , ('Leando Coelho', 19, 'ADS')
+    , ('Bruna Santana', 18, 'CCO');
+
+SELECT * FROM tbAluno;
