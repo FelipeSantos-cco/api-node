@@ -48,6 +48,16 @@ function buscarAlunoNome(req, res) {
     }
 }
 
+function buscarAlunoRA(req, res){
+    var ra = req.body.ra_html;
+    
+    if(ra == undefined){
+        res.status(400).send("O seu RA está undefined!!!!")
+    }
+    else{
+        alunoModel.buscarAlunoRa()
+    }
+}
 
 module.exports ={
     listarAlunos,

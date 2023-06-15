@@ -13,16 +13,16 @@ rota.get("/", (req, res) => {
     alunoController.listarAlunos(req, res)
 });
 
-
-
-
-
 // Post ---------
 rota.post("/buscarNome", (req, res) =>{
     info("Buscar por nome de aluno");
     alunoController.buscarAlunoNome(req, res);
 });
 
+rota.post("/buscarRA", (req, res) => {
+    info("Buscar por RA");
+    alunoController.
+})
 
 // Export.....
 module.exports = rota;
